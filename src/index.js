@@ -48,6 +48,6 @@ app.get('/prueba', (req, res, next) => {
 	}
 });
 
-httpServer.listen(process.env.PORT, () => {
+httpServer.listen(3000, () => {
 	console.log(`Escuchando en el puerto ${process.env.PORT}`);
 });
